@@ -1,0 +1,31 @@
+/* hotline section */
+.custom-hotline-info {
+  margin-left: 10px;
+}
+.custom-hotline-info span {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(28, 23, 29);
+}
+.custom-hotline-info h5 {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(28, 23, 29);
+  white-space: nowrap;
+}
+
+/* email section */
+.custom-email-info {
+  margin-left: 10px;
+}
+.custom-email-info span {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(28, 23, 29);
+}
+.custom-email-info h5 {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(28, 23, 29);
+  white-space: nowrap;
+}
