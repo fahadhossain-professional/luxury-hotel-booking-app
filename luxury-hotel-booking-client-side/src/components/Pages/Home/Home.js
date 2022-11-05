@@ -1,6 +1,8 @@
+import CoverPhoto from '../../Shared/CoverPhoto/CoverPhoto';
+
 const Home = () => {
   return (
-    <div />
+    <CoverPhoto />
   );
 };
 
