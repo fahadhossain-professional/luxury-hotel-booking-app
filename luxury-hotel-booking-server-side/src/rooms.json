@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "img": "https://html.tonatheme.com/2022/royalking/assets/images/resource/room-1.jpg",
+    "price": 55.0,
+    "name": "Luxury Room",
+    "dsc": "Mattis cras magna morb punar aenean aliquet in. Risus a arcu eget."
+  },
+  {
+    "id": 2,
+    "img": "https://html.tonatheme.com/2022/royalking/assets/images/resource/room-2.jpg",
+    "price": 120.0,
+    "name": "Delux Room",
+    "dsc": "Mattis cras magna morb punar aenean aliquet in. Risus a arcu eget."
+  },
+  {
+    "id": 3,
+    "img": "https://html.tonatheme.com/2022/royalking/assets/images/resource/room-3.jpg",
+    "price": 75.0,
+    "name": "Luxury Room",
+    "dsc": "Mattis cras magna morb punar aenean aliquet in. Risus a arcu eget."
+  },
+  {
+    "id": 4,
+    "img": "https://html.tonatheme.com/2022/royalking/assets/images/resource/room-11.jpg",
+    "price": 85.0,
+    "name": "Delux Room",
+    "dsc": "Mattis cras magna morb punar aenean aliquet in. Risus a arcu eget."
+  },
+  {
+    "id": 5,
+    "img": "https://html.tonatheme.com/2022/royalking/assets/images/resource/room-12.jpg",
+    "price": 55.0,
+    "name": "Luxury Room",
+    "dsc": "Mattis cras magna morb punar aenean aliquet in. Risus a arcu eget."
+  },
+  {
+    "id": 6,
+    "img": "https://html.tonatheme.com/2022/royalking/assets/images/resource/room-13.jpg",
+    "price": 95.0,
+    "name": "Delux Room",
+    "dsc": "Mattis cras magna morb punar aenean aliquet in. Risus a arcu eget."
+  },
+  {
+    "id": 7,
+    "img": "https://html.tonatheme.com/2022/royalking/assets/images/resource/room-3.jpg",
+    "price": 25.0,
+    "name": "Single Room",
+    "dsc": "Mattis cras magna morb punar aenean aliquet in. Risus a arcu eget."
+  },
+  {
+    "id": 8,
+    "img": "https://html.tonatheme.com/2022/royalking/assets/images/resource/room-2.jpg",
+    "price": 20.0,
+    "name": "budget Room",
+    "dsc": "Mattis cras magna morb punar aenean aliquet in. Risus a arcu eget."
+  },
+  {
+    "id": 9,
+    "img": "https://html.tonatheme.com/2022/royalking/assets/images/resource/room-1.jpg",
+    "price": 65.0,
+    "name": "Luxury Room",
+    "dsc": "Mattis cras magna morb punar aenean aliquet in. Risus a arcu eget."
+  }
+]
