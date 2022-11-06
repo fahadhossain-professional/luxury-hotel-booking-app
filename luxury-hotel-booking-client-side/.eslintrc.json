@@ -12,6 +12,8 @@
   "plugins": ["react"],
   "rules": {
     "no-console": "off",
+    "react/prop-types": "off",
+    "radix": "off",
     "arrow-body-style": ["error", "always"],
     "comma-dangle": ["error", "never"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
