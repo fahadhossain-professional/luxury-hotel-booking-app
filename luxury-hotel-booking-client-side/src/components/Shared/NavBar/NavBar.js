@@ -1,7 +1,14 @@
+import { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../../../assets/images/header-logo2.svg';
+import { AuthContext } from '../../../context/UserContext';
 import './NavBar.css';
 
 const NavBar = () => {
+  const { user, userSignOut } = useContext(AuthContext);
+
+  console.log(user);
+
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container container-fluid">
@@ -13,24 +20,22 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/">Features</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/">Pricing</a>
-            </li>
+            <Link className="nav-link active" to="/">
+              Home
+            </Link>
           </ul>
           <span className="navbar-text">
             <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link" href="/">Sign in</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">Sign up</a>
-              </li>
+              {user?.uid ? (
+                <Link className="nav-link" onClick={userSignOut} to="/signin">
+                  Sign out
+                </Link>
+              ) : (
+                <>
+                  <Link className="nav-link" to="/signup">Sign up</Link>
+                  <Link className="nav-link" to="/signin">Sign in</Link>
+                </>
+              )}
             </ul>
           </span>
         </div>

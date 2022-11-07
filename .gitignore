@@ -1,0 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+luxury-hotel-booking-client-side/node_modules/
+luxury-hotel-booking-client-side/.pnp/
+luxury-hotel-booking-client-side/.pnp.js/
+
+# firebase
+luxury-hotel-booking-client-side/src/firebase/
+
+# server
+luxury-hotel-booking-server-side/node_modules/
+
+# testing
+luxury-hotel-booking-client-side/coverage/
+
+# production
+luxury-hotel-booking-client-side/build/
+
+# misc
+luxury-hotel-booking-client-side/.DS_Store
+luxury-hotel-booking-client-side/.env.local
+luxury-hotel-booking-client-side/.env.development.local
+luxury-hotel-booking-client-side/.env.test.local
+luxury-hotel-booking-client-side/.env.production.local
+
+luxury-hotel-booking-client-side/npm-debug.log*
+luxury-hotel-booking-client-side/yarn-debug.log*
+luxury-hotel-booking-client-side/yarn-error.log*

@@ -15,6 +15,12 @@ app.get('/rooms', (req, res) => {
   res.send(rooms);
 });
 
+app.get('/book/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  const book = rooms.find((room) => room.id === id) || {};
+  res.send(book);
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
 });
